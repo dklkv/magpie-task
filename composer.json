@@ -2,9 +2,11 @@
   "name": "magpie/scrape-challenge",
   "type": "project",
   "require": {
+    "php": "^7.4",
     "symfony/dom-crawler": "^5.2",
     "guzzlehttp/guzzle": "^7.2",
-    "symfony/css-selector": "^5.2"
+    "symfony/css-selector": "^5.2",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
